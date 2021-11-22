@@ -1,23 +1,17 @@
 package com.github.egorbogomolov.adventofcode2021
 
+import com.github.egorbogomolov.adventofcode2021.utils.Resources
 import org.junit.jupiter.api.AfterAll
 import org.junit.jupiter.api.TestInstance
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-abstract class DayTest {
+abstract class DayTest(val number: Number) {
+
+    val testInput = Resources.asString("test${number.toString().padStart(2, '0')}.txt")
 
     abstract val day: Day
 
     abstract fun `Part 1`()
 
     abstract fun `Part 2`()
-
-    @AfterAll
-    fun solve() {
-        with(day) {
-            println("Solutions for Day $number:")
-            println("Part 1: ${part1()}")
-            println("Part 2: ${part2()}")
-        }
-    }
 }

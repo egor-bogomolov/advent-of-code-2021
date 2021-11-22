@@ -3,19 +3,21 @@ package com.github.egorbogomolov.adventofcode2021
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-class Day01Test : DayTest() {
+class Day01Test : DayTest(1) {
 
     override val day = Day01()
 
     @Test
     override fun `Part 1`() {
-        assertEquals(0, day.part1("test_input"))    // check against test input
-        assertEquals(0, day.part1())                // check solution against input data
+        assertEquals(514579, day.part1(testInput))    // check against test input
+        println("Output for Day $number:")
+        println(day.part1())
     }
 
     @Test
     override fun `Part 2`() {
-        assertEquals(0, day.part2("test_input"))
-        assertEquals(0, day.part2())
+        assertEquals(0, day.part2(testInput))
+        println("Output for Day $number:")
+        println(day.part2())
     }
 }
