@@ -1,6 +1,6 @@
-package com.github.kotlinhandson.aoc
+package com.github.egorbogomolov.adventofcode2021
 
-import com.github.kotlinhandson.aoc.utils.Resources
+import com.github.egorbogomolov.adventofcode2021.utils.Resources
 
 abstract class Day(val number: Number) {
 

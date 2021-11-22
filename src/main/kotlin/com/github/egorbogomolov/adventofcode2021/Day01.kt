@@ -1,4 +1,4 @@
-package com.github.kotlinhandson.aoc
+package com.github.egorbogomolov.adventofcode2021
 
 class Day01 : Day(1) {
 

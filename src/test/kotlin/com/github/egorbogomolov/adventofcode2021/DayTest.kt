@@ -1,4 +1,4 @@
-package com.github.kotlinhandson.aoc
+package com.github.egorbogomolov.adventofcode2021
 
 import org.junit.jupiter.api.AfterAll
 import org.junit.jupiter.api.TestInstance

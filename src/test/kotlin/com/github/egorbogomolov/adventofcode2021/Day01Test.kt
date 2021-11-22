@@ -1,4 +1,4 @@
-package com.github.kotlinhandson.aoc
+package com.github.egorbogomolov.adventofcode2021
 
 import kotlin.test.Test
 import kotlin.test.assertEquals

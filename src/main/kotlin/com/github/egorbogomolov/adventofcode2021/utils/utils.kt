@@ -1,4 +1,4 @@
-package com.github.kotlinhandson.aoc.utils
+package com.github.egorbogomolov.adventofcode2021.utils
 
 import java.math.BigInteger
 import java.security.MessageDigest
